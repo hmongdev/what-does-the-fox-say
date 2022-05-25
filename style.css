@@ -36,10 +36,6 @@ button {
     border: 10px solid;
 }
 
-button:hover {
-    background-color: #349db8;
-}
-
 :root {
     --dog-border: #cda453;
     --cat-border: #cda453;
@@ -66,13 +62,20 @@ button:hover {
     background-size: cover;
     background-position: center;
     border: 10px solid var(--dog-border);
+}
 
+#dog:hover {
+    box-shadow: 10px 10px 10px 10px var(--dog-border);
 }
 
 #cat {
     background: url(images/cat.jpg);
     background-size: cover;
-    border: 10px solid #CEB59D;
+    border: 10px solid var(--cat-border);
+}
+
+#cat:hover {
+    box-shadow: 10px 10px 10px 10px var(--cat-border);
 }
 
 #bird {
@@ -81,10 +84,18 @@ button:hover {
     border: 10px solid var(--bird-border);
 }
 
+#bird:hover {
+    box-shadow: 10px 10px 10px 10px var(--bird-border);
+}
+
 #mouse {
     background: url(images/mouse.jpg);
     background-size: cover;
     border: 10px solid var(--mouse-border);
+}
+
+#mouse:hover {
+    box-shadow: 10px 10px 10px 10px var(--mouse-border);
 }
 
 #cow {
@@ -93,10 +104,18 @@ button:hover {
     border: 10px solid var(--cow-border);
 }
 
+#cow:hover {
+    box-shadow: 10px 10px 10px 10px var(--cow-border);
+}
+
 #frog {
     background: url(images/frog.jpeg);
     background-size: cover;
     border: 10px solid var(--frog-border);
+}
+
+#frog:hover {
+    box-shadow: 10px 10px 10px 10px var(--frog-border);
 }
 
 #elephant {
@@ -105,10 +124,18 @@ button:hover {
     border: 10px solid var(--elephant-border);
 }
 
+#elephant:hover {
+    box-shadow: 10px 10px 10px 10px var(--elephant-border);
+}
+
 #duck {
     background: url(images/duck.jpg);
     background-size: cover;
     border: 10px solid var(--duck-border);
+}
+
+#duck:hover {
+    box-shadow: 10px 10px 10px 10px var(--duck-border);
 }
 
 #fish {
@@ -117,14 +144,26 @@ button:hover {
     border: 10px solid var(--fish-border);
 }
 
+#fish:hover {
+    box-shadow: 10px 10px 10px 10px var(--fish-border);
+}
+
 #seal {
     background: url(images/seal.jpg);
     background-size: cover;
     border: 10px solid var(--seal-border);
 }
 
+#seal:hover {
+    box-shadow: 10px 10px 10px 10px var(--seal-border);
+}
+
 #fox {
     background: url(images/fox.jpg);
     background-size: cover;
     border: 10px solid var(--fox-border);
+}
+
+#fox:hover {
+    box-shadow: 10px 10px 10px 10px var(--fox-border);
 }
