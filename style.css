@@ -13,62 +13,102 @@ h1 {
 }
 
 button {
-    height: 200px;
-    width: 200px;
-    margin: 0 1rem;
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    border-radius: 30px;
+    border: 10px solid;
+}
+
+button:hover {
+    background-color: #349db8;
+}
+
+:root {
+    --dog-border: #cda453;
+    --cat-border: #cda453;
+    --bird-border: #7693AC;
+    --mouse-border: #F9F9F9;
+    --cow-border: #D78EAD;
+    --frog-border: #3B7F5C;
+    --elephant-border: #746A55;
+    --duck-border: #181D28;
+    --fish-border: #EDC64F;
+    --seal-border: #000000;
+    --fox-border: #F0B2A6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #dog {
     background: url(images/dog.jpg);
     background-size: cover;
+    background-position: center;
+    border: 10px solid var(--dog-border);
+
 }
 
 #cat {
     background: url(images/cat.jpg);
     background-size: cover;
+    border: 10px solid #CEB59D;
 }
 
 #bird {
     background: url(images/bird.jpg);
     background-size: cover;
+    border: 10px solid var(--bird-border);
 }
 
 #mouse {
     background: url(images/mouse.jpg);
     background-size: cover;
+    border: 10px solid var(--mouse-border);
 }
 
 #cow {
     background: url(images/cow.jpg);
     background-size: cover;
+    border: 10px solid var(--cow-border);
 }
 
 #frog {
     background: url(images/frog.jpeg);
     background-size: cover;
+    border: 10px solid var(--frog-border);
 }
 
 #elephant {
     background: url(images/elephant.jpg);
     background-size: cover;
+    border: 10px solid var(--elephant-border);
 }
 
 #duck {
     background: url(images/duck.jpg);
     background-size: cover;
+    border: 10px solid var(--duck-border);
 }
 
 #fish {
     background: url(images/fish.jpg);
     background-size: cover;
+    border: 10px solid var(--fish-border);
 }
 
 #seal {
     background: url(images/seal.jpg);
     background-size: cover;
+    border: 10px solid var(--seal-border);
 }
 
 #fox {
     background: url(images/fox.jpg);
     background-size: cover;
+    border: 10px solid var(--fox-border);
 }
