@@ -1,10 +1,21 @@
 body {
     text-align: center;
-    background-color: darkslateblue;
 }
 
 div {
     margin: 1rem;
+}
+
+html {
+    background: url('https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1671325.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+a {
+    color: orangered;
 }
 
 h1 {
