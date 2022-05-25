@@ -6,6 +6,9 @@
 // This lead me to: https://googlechrome.github.io/samples/play-return-promise/index.html
 // Still need solution
 
+// 5/25/22 - Update
+// Jarvis recommended using template literals instead of string concatenation
+
 //determine .length of buttons
 var animalButtons = document.querySelectorAll("button"); //10
 
