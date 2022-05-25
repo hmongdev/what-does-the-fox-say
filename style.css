@@ -15,7 +15,12 @@ html {
 }
 
 a {
-    color: orangered;
+    color: white;
+    -webkit-text-fill-color: yellow;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    width: 70%;
+    text-decoration: none;
 }
 
 h1 {
