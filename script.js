@@ -27,7 +27,7 @@ const fox = document.getElementById("fox"); //selects fox button
 let clicks = 0;
 
 fox.addEventListener("click", function foxSays() {
-    let audio = new Audio(`sounds/${foxSounds[clicks]}.mp3`);
+    let audio = new Audio("sounds/" + foxSounds[clicks] + ".mp3");
     audio.play();
     clicks++;
     //reset clicks to 0 upon reaching last index
