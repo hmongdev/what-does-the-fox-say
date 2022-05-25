@@ -35,11 +35,3 @@ fox.addEventListener("click", function foxSays() {
         clicks = 0;
     }
 });
-
-// //random foxSounds
-// let foxSounds = ["/sounds/fox1.mp3", "/sounds/fox2.mp3", "/sounds/fox3.mp3"];
-
-// fox.addEventListener("click", function foxSays() {
-//     let audio = new Audio(foxSounds[Math.floor(Math.random() * foxSounds.length)]);
-//     audio.play();
-// });
